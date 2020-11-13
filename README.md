@@ -9,4 +9,4 @@
 
 ### Bellow is for me
 
-* [list of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
+* [Wiki : List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)

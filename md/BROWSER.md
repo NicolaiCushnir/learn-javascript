@@ -1,5 +1,3 @@
-### [return main page](../README.md)
-
 ### Browser JavaScript
 
 * Scrie o funcție unde ai să introduci o propoziție necunoscută/ca parametru, apoi ai să întrebi de cîte ori vrei să se repete.
