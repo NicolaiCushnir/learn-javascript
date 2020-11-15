@@ -106,6 +106,7 @@ function same_place() {
 * check if is number or string
 
 ```js
+// must work. don't like it.
 function check_if_is_number(arg) {
   if(typeof arg) {
     console.log(typeof arg);
@@ -124,5 +125,28 @@ var sortUser = function() {
   for (var i = 0; i < users.length; i++) {
     console.log(users[i]);
   }
+}
+```
+
+* count how many vowels there are in a sentence.
+```js
+// Example 1
+function count_vowel(sentence) {
+  var vowel = "aeouiAEOUI";
+  var result = "";
+  var count = 0;
+  for(var i = 0; i < sentence.length; i++) {
+    for(var j = 0; j < vowel.length; j++) {
+      if(sentence[i] === vowel[j]) {
+        console.log(count);
+      }   
+    } 
+  }
+}
+
+// Example 2
+function getVowels(str) {
+  var m = str.match(/[aeiou]/gi);
+  return m === null ? 0 : m.length;
 }
 ```

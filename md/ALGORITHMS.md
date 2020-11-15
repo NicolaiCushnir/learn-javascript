@@ -30,3 +30,7 @@
 * Cryptography
 * Genetics
 * Sequence algorithms [wiki](https://en.wikipedia.org/wiki/Sequence)
+
+### Links :
+
+* [Wiki : List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
