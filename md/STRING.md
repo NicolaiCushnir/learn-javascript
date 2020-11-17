@@ -138,10 +138,12 @@ function count_vowel(sentence) {
   for(var i = 0; i < sentence.length; i++) {
     for(var j = 0; j < vowel.length; j++) {
       if(sentence[i] === vowel[j]) {
-        console.log(count);
+        count += 1;
       }   
     } 
   }
+
+  return count;
 }
 
 // Example 2
