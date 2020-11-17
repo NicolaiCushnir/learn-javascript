@@ -93,7 +93,7 @@ function count_spaces(sentence) {
 function same_place() {
   var myPlaces = ['United Kingdom', 'Russian', 'Moldova', "Romania"];
   var friendPlaces = ['Canada', 'United Kingdom', 'Moldova'];
-  for (var i = 0; i < myPlaces.length; i++ ) { 
+  for (var i = 0; i < myPlaces.length; i++) { 
       for (var j = 0; j < friendPlaces.length; j++) {
           if (myPlaces[i] === friendPlaces[j]) {
               console.log('La fel : ' + myPlaces[i]);
@@ -149,4 +149,32 @@ function getVowels(str) {
   var m = str.match(/[aeiou]/gi);
   return m === null ? 0 : m.length;
 }
+```
+
+
+* ca numai o data sa se repete litera din string
+
+```js
+// Exemplu : var = "bineaivenit" // binea
+function oneRepeat(str) {
+  var = "ibineai" // binea
+  var alpha = "";
+  for(var )
+}
+```
+
+* Scrie numai care cuvinte se repeta
+
+```js
+function showOnlyRepeatWords() {
+  var arr = ["be", "ok", "be", "good"] // be, ok, good
+  // if se repeta scrie=>
+  // be, 
+}
+```
+
+* Sa se repete de n ori
+
+```js
+console.log("not be soon");
 ```
