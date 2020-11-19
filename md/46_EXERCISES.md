@@ -58,7 +58,7 @@ function len(str) {
 4. Write a function that takes a character and returns if it is a vowel or consonant. 
 ```javascript
 // Example 1
-function letter(arg) {
+function check_letter_algorithm_method(arg) {
   var vowel = "aeouiAEOUI";
   let consonant = true;
   for (var i = 0; i < vowel.length; i++) {
@@ -74,7 +74,7 @@ function letter(arg) {
 }
 
 // Example 2
-function letter_method_return(arg) {
+function check_letter_method_return(arg) {
   var vowel = "aeouiAEOUI";
   var result = "";
   for (var i = 0; i < vowel.length; i++) {
@@ -87,7 +87,7 @@ function letter_method_return(arg) {
 }
 
 // Example 3
-function letter_indexof(arg) {
+function check_letter_method_indexof(arg) {
     var vowels = ["a","e","i","o","u"]; 
     if(vowels.indexOf(arg.toLowerCase()) >= 0) {
         console.log("vowel");
@@ -97,7 +97,7 @@ function letter_indexof(arg) {
 }
 
 // Example 4
-const letter = arg => console.log(
+const check_letter_method_regexp = arg => console.log(
   /[aeiou]/i.test(arg) ? 'vowel' : 'consonant'
 );
 ```

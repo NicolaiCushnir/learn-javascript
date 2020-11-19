@@ -19,16 +19,3 @@ function ronc(){
 
   return result;
 }
-
-function check_letter(symbol) {
-  var vowel = "aeouiAEOUI";
-  for(var i = 0; i < vowel.length; i++) {
-    if(symbol === vowel[i]) {
-      return "Vowel";
-    } else {
-      return "consonant";
-    }
-  }
-}
-
-console.log( check_letter("f"));
