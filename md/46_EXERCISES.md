@@ -57,6 +57,7 @@ function len(str) {
 
 4. Write a function that takes a character and returns if it is a vowel or consonant. 
 ```javascript
+// Example 1
 function letter(arg) {
   var vowel = "aeouiAEOUI";
   let consonant = true;
@@ -71,6 +72,34 @@ function letter(arg) {
     console.log("vowel");
   }
 }
+
+// Example 2
+function letter_method_return(arg) {
+  var vowel = "aeouiAEOUI";
+  var result = "";
+  for (var i = 0; i < vowel.length; i++) {
+    if (arg === vowel[i]) {
+      console.log("vowel");
+      return;
+    }
+  }
+  console.log("consonant");
+}
+
+// Example 3
+function letter_indexof(arg) {
+    var vowels = ["a","e","i","o","u"]; 
+    if(vowels.indexOf(arg.toLowerCase()) >= 0) {
+        console.log("vowel");
+    } else {
+        console.log("consonant");
+    }   
+}
+
+// Example 4
+const letter = arg => console.log(
+  /[aeiou]/i.test(arg) ? 'vowel' : 'consonant'
+);
 ```
 
 5. Write a function `DoubleConsonant();` which doubles consonants and puts the letter "O" between them. View all list with double consonant resolved. [Here](double_consonant.md)
@@ -88,9 +117,7 @@ function double_consonant(sentence) {
   }
   return result;  
 }
-```
 
-```js
 // Example 2 
 function DoubleConsonant(l) {
   var source = "here is a simple text for me";

@@ -153,18 +153,6 @@ function getVowels(str) {
 }
 ```
 
-
-* ca numai o data sa se repete litera din string
-
-```js
-// Exemplu : var = "bineaivenit" // binea
-function oneRepeat(str) {
-  var = "ibineai" // binea
-  var alpha = "";
-  for(var )
-}
-```
-
 * Scrie numai care cuvinte se repeta
 
 ```js
@@ -173,10 +161,4 @@ function showOnlyRepeatWords() {
   // if se repeta scrie=>
   // be, 
 }
-```
-
-* Sa se repete de n ori
-
-```js
-console.log("not be soon");
 ```
