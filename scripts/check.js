@@ -1,4 +1,4 @@
-
+// repeat only a one time the letter.
 function ronc(){
   var str = "eebinee";
   var alfabetul = "abcdefghijklmnomxyz0123456789";

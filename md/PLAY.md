@@ -50,3 +50,17 @@ function equal_vowel_while_loop(sentence) {
   }
 }
 ```
+
+* Check type of data. 
+
+```js
+function check_type_of_data(arg) {
+  if(arg === String(arg)) {
+    return "String";
+  } else if (arg === Number(arg)) {
+    return "Number";
+  } else {
+    return "Something Wrong";
+  }
+}
+```

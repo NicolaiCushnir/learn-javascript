@@ -103,19 +103,6 @@ function same_place() {
 }
 ```
 
-* check if is number or string
-
-```js
-// must work. don't like it.
-function check_if_is_number(arg) {
-  if(typeof arg) {
-    console.log(typeof arg);
-  } else (typeof arg) {
-    console.log(typeof arg);
-  }
-}
-```
-
 * Sorting names chronologically.
 
 ```js
@@ -153,12 +140,3 @@ function getVowels(str) {
 }
 ```
 
-* Scrie numai care cuvinte se repeta
-
-```js
-function showOnlyRepeatWords() {
-  var arr = ["be", "ok", "be", "good"] // be, ok, good
-  // if se repeta scrie=>
-  // be, 
-}
-```
