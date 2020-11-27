@@ -1,6 +1,6 @@
+
 // repeat only a one time the letter.
-function ronc(){
-  var str = "eebinee";
+function ronc(str){
   var alfabetul = "abcdefghijklmnomxyz0123456789";
   var result = "";
   var count = 0;
@@ -19,3 +19,5 @@ function ronc(){
 
   return result;
 }
+
+console.log( ronc("goodgood") ); // god
