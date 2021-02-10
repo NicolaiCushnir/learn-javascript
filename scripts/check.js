@@ -21,3 +21,42 @@ function ronc(str){
 }
 
 console.log( ronc("goodgood") ); // god
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var user_1 = {
+  id: 19121993,
+  full_name: "Nicolai Cushnir",
+  age: 27,
+  gender: "male"
+};
+
+data = JSON.stringify(user_1); // from Oject to transform in => String
+
+
+// data = JSON.parse(user_1); // from String to transform in => Object
+console.log(typeof data) //obj
+
+
+
+
+
+
