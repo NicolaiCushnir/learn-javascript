@@ -90,6 +90,8 @@ Below is mess and i must clean but i am lazy. So be patient.
 
 * `onload=""`, `onresize=""`, `onclick=""`
 
+
+
 Разница бежду событиями `onresize` и `onclick` иницлиируются пользователем, а onload — нет.
 
 * cookie methods:
@@ -107,3 +109,8 @@ Below is mess and i must clean but i am lazy. So be patient.
 	}
 </script>
 ```
+
+
+* Aici este un simplu comentariu pentru mine deoarece :
+1. eu vreu sa lucrez cu DOM elements
+2. vreau sa verific if pot lucra `remote`
