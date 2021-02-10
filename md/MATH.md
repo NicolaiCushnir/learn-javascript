@@ -92,7 +92,7 @@ asyncSum([10, 20], (sum) => {
 console.log("B");
 ```
 
-* Numere care nu se repetă
+* Arată doar numerele care nu se repetă
 ```js
 function shortMethod () {
   var a = [2, 2,23,453,52,32,3,24,25,2,4,25,5,363,4,23,5,2];

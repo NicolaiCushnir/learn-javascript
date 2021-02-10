@@ -1,5 +1,27 @@
 ### Browser JavaScript
 
+* Fa un program unde ai sa scrii un numar apoi acel numar va fii tra
+```js
+/*
+** TASKS : fa 2 functii :
+** 1. transform din numere in simbols [+]
+** 2. transform din simbols in numers [-]
+*/
+
+var a = prompt("Scrie un număr");
+var b = prompt("Scrie un simbol");
+
+if(isNaN(a)) {
+	alert("Introdu un numar");
+}
+
+document.write("Your number which you wrote in that field was transformed in symbols : ");
+
+for(var i=0; i<a; i++) {
+	document.write(b);
+}
+```
+
 * Scrie o funcție unde ai să introduci o propoziție necunoscută/ca parametru, apoi ai să întrebi de cîte ori vrei să se repete.
 
 ```js
