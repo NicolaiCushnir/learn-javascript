@@ -196,6 +196,8 @@ check type of data:
   {<>=-!.,* **() {} }
 ```
 
+- Să fac o programă ceva de gen sa scriu în consolă sau terminal `run program` de exemplu, și o să-mi apară pe rînd fiecare programă pe care am făcut cu ajutorul la js. În plus de fiecare cînd o să pornesc progrma să apară în forma `random` cît și prima atît și următoarele pînă la sfîrșit cu așa scop să nu se repete nici una din ele. Probabil o sa am un array cu mai multe array-uri in el. Treb de gindit ...
+
 ### Not Important. It's for me.
 
 * [Emoji](https://gist.github.com/AliMD/3344523)

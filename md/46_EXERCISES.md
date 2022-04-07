@@ -98,6 +98,23 @@ function check_letter_method_indexof(arg) {
 const check_letter_method_regexp = arg => console.log(
   /[aeiou]/i.test(arg) ? 'vowel' : 'consonant'
 );
+
+// Exemple 5
+function letter_method_include(letter) {
+    var vowel = "aeiou";
+    var consonant = "bcdfghjklmnprqstvwxyz";
+    if(vowel.includes(letter) ) {
+        console.log("the letter " + letter + " is a vowel.");
+    }
+    if(consonant.includes(letter)) {
+        console.log("the letter " + letter + " is a consonant.");
+    }
+    
+    // must more work here
+    if (!vowel.includes(letter) && !consonant.includes(letter)) {
+        console.log(`"${letter}" is not a letter!`);
+    }
+}
 ```
 
 5. Write a function `DoubleConsonant();` which doubles consonants and puts the letter "O" between them. View all list with double consonant resolved. [Here](double_consonant.md)
