@@ -55,9 +55,9 @@ function len(str) {
 
 4. Write a function that takes a character and returns if it is a vowel or consonant. 
 ```javascript
-// Example 1
+// Example 1 : Algorithm
 function check_letter_algorithm_method(arg) {
-  var vowel = "aeouiAEOUI";
+  let vowel = "aeouiAEOUI";
   let consonant = true;
   for (var i = 0; i < vowel.length; i++) {
     if (arg === vowel[i]) {
@@ -71,35 +71,22 @@ function check_letter_algorithm_method(arg) {
   }
 }
 
-// Example 2
-function check_letter_method_return(arg) {
-  var vowel = "aeouiAEOUI";
-  var result = "";
-  for (var i = 0; i < vowel.length; i++) {
-    if (arg === vowel[i]) {
-      console.log("vowel");
-      return;
-    }
+// Example 2 : indexOf();
+var vowel = "aeouiAEOUI";
+function main(arg) {
+  if(vowel.indexOf(arg) === -1) {
+    return "consonant";
+  } else {
+    return "vowel";
   }
-  console.log("consonant");
 }
 
-// Example 3
-function check_letter_method_indexof(arg) {
-    var vowels = ["a","e","i","o","u"]; 
-    if(vowels.indexOf(arg.toLowerCase()) >= 0) {
-        console.log("vowel");
-    } else {
-        console.log("consonant");
-    }   
-}
-
-// Example 4
+// Example 3 : RegExp
 const check_letter_method_regexp = arg => console.log(
   /[aeiou]/i.test(arg) ? 'vowel' : 'consonant'
 );
 
-// Exemple 5
+// Exemple 4 : include();
 function letter_method_include(letter) {
     var vowel = "aeiou";
     var consonant = "bcdfghjklmnprqstvwxyz";
@@ -201,7 +188,17 @@ function arr_common() {
 }
 ```
 
+10. two arrays
+```js
+var array1 = [2, 3, 4, 14];
+var array2 = [14, 7, 9];
+
+const comunNumber = array1.find(value => array2.includes(value));
+console.log(comunNumber ? true : false);
+```
+
 ### Similar resources
 * [46 Simple Python Exercises 
 April 03, 2017](http://uselesstruth.blogspot.md/2017/04/46-simple-python-exercises.html)
+* [Github : 46-Simple-Python-Exercises-Solutions](https://github.com/arsho/46-Simple-Python-Exercises-Solutions/blob/master/problem_10.py)
 * [JS Exercises, Practice, Solution](https://www.w3resource.com/javascript-exercises/)
