@@ -188,13 +188,35 @@ function arr_common() {
 }
 ```
 
-10. two arrays
+10. Verifică dacă în unul din aceste doua arrays(arr1, arr2), are cel puțin un număr comun atunci true else false.
 ```js
+// Example 1
 var array1 = [2, 3, 4, 14];
 var array2 = [14, 7, 9];
 
 const comunNumber = array1.find(value => array2.includes(value));
 console.log(comunNumber ? true : false);
+
+// Example 2 : Wrong
+var a = [12, 9, 8];
+var b = [1, 1, 3, 12];
+
+function main() {
+  for(var i = 0; i < a.length; i++) {
+    var count = 0;
+    for(var j = 0; j < b.length; j++) {
+      if(a[i] === b[j]) {
+        count +=1;
+      }
+    }
+  }
+
+  if(count === 1 || count > 1) {
+    return true;
+  } else {
+    return false;
+  }
+}
 ```
 
 ### Similar resources
