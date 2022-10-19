@@ -1,5 +1,4 @@
 ### Create games in javascript
-
 - [Snake Game](https://www.youtube.com/watch?v=AaGK-fj-BAM&t=2s&ab_channel=TheCodingTrain)
 - [Game-Dev BitBucket](https://bitbucket.org/Schedule93/games-dev/src/master/)
 - [Cyber Forum - Поле чюдес : JS](https://www.cyberforum.ru/javascript/thread1426193.html)
@@ -7,6 +6,7 @@
 - [Gues the number](GUES_NUMBER.md)
 
 ### Future Tasks:
+- Arată în consolă cîte numere sa găsit comune în 2 arr. ?
 - Arată în consolă doar elementul care nu se repetă. `var arr = [1,1,8,8,2,2,4,4,3,3,5,9,9];` Mai bine spus numărul 5 din varibila arr.
 - [Как проверить гласные в JavaScript?](https://fooobar.com/questions/367622/how-do-i-check-for-vowels-in-javascript)
 - [Code review](https://codereview.stackexchange.com/questions/128121/count-the-number-of-vowels-and-consonants/128127)
