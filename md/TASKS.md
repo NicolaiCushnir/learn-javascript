@@ -34,7 +34,7 @@
 24. [] In partea stanga ai un bloc cu 7 poze mici cand dai pe fiecare poza, cu cursorul sa se schimbe poza + zoom + download a image.
 25. [] Удалённое управление компьютером. SSH ?
 26. [] TRELLO. What is this ?
-27. [x] Sa vezi cîte argumente sunt într-o funcție.
+27. [] Sa vezi cîte argumente sunt într-o funcție. **MADE**
 ```javascript
 function count_arguments(arg1, arg2, arg3, arg4, arg5) {
   data = arguments.length;
@@ -45,7 +45,7 @@ function count_arguments(arg1, arg2, arg3, arg4, arg5) {
 
 count_arguments("room", "such", "zoo");
 ```
-28. [x] Reverse Smile
+28. [] Reverse Smile **MADE**
 
 ```js
 function reverse_smile() {
