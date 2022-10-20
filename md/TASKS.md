@@ -6,19 +6,20 @@
 - [Gues the number](GUES_NUMBER.md)
 
 ### Future Tasks:
-1. Scrie o programă pentru browser, identic cu `Canguourou` [Link 1](https://sites.google.com/view/onlinecursuri/INFORMATICA/clasa-a-viii-a/semestrul-ii-8/no%C8%9Biune-de-algoritm) și [Link 2](https://www.scribd.com/presentation/427414121/Executantul-Cangourou) Uite-te la poză. ![image](../img/cangur.png)
-1. Arată în consolă cîte numere sa găsit comune în 2 arr. ? 
-1. Arată în consolă doar elementul care nu se repetă. `var arr = [1,1,8,8,2,2,4,4,3,3,5,9,9];` Mai bine spus numărul 5 din varibila arr.
-1. [Как проверить гласные в JavaScript?](https://fooobar.com/questions/367622/how-do-i-check-for-vowels-in-javascript)
-1. []. [Code review](https://codereview.stackexchange.com/questions/128121/count-the-number-of-vowels-and-consonants/128127)
-1. []. [Three ways to repeat a string in JavaScript
+
+1. [] Scrie o programă pentru browser, identic cu `Canguourou` [Link 1](https://sites.google.com/view/onlinecursuri/INFORMATICA/clasa-a-viii-a/semestrul-ii-8/no%C8%9Biune-de-algoritm) și [Link 2](https://www.scribd.com/presentation/427414121/Executantul-Cangourou) Uite-te la poză. ![image](../img/cangur.png)
+2. [] Arată în consolă cîte numere sa găsit comune în 2 arr. ? 
+3. [] Arată în consolă doar elementul care nu se repetă. `var arr = [1,1,8,8,2,2,4,4,3,3,5,9,9];` Mai bine spus numărul 5 din varibila arr.
+4. []. [Как проверить гласные в JavaScript?](https://fooobar.com/questions/367622/how-do-i-check-for-vowels-in-javascript)
+5. []. [Code review](https://codereview.stackexchange.com/questions/128121/count-the-number-of-vowels-and-consonants/128127)
+6. []. [Three ways to repeat a string in JavaScript
 ](https://www.freecodecamp.org/news/three-ways-to-repeat-a-string-in-javascript-2a9053b93a2d/)
-1. []. [Count the number of occurrences of a specific character in a string](http://www.codecodex.com/wiki/index.php?title=Count_the_number_of_occurrences_of_a_specific_character_in_a_string#JavaScript)
-1. [], [How to Count the Number of Properties of the JavaScript Object](https://dzone.com/articles/how-to-count-the-number-of-properties-of-the-javas)
-1. [], [Следим за курсором. Делаем живые глаза](https://www.youtube.com/watch?v=Sftw1qKo_n0&list=PLQqEY2kzSbZ7nLB8fooOpq89XfuMmwtMW&index=19&t=631s)
-1. [], [Lock at Frequent Question on Stack Overflow](https://stackoverflow.com/questions/tagged/javascript?sort=frequent) from JavaScript 
-1. [] Test : Who are you from anime Naruto :) Look here like example [ProProfs](https://www.proprofs.com/quiz-school/story.php?title=which-naruto-character-are-you-most-like)
-1. [] Check if first letter is `lowerCase` or `UpperCase`.
+7. []. [Count the number of occurrences of a specific character in a string](http://www.codecodex.com/wiki/index.php?title=Count_the_number_of_occurrences_of_a_specific_character_in_a_string#JavaScript)
+8. [], [How to Count the Number of Properties of the JavaScript Object](https://dzone.com/articles/how-to-count-the-number-of-properties-of-the-javas)
+9. [], [Следим за курсором. Делаем живые глаза](https://www.youtube.com/watch?v=Sftw1qKo_n0&list=PLQqEY2kzSbZ7nLB8fooOpq89XfuMmwtMW&index=19&t=631s)
+10. [], [Lock at Frequent Question on Stack Overflow](https://stackoverflow.com/questions/tagged/javascript?sort=frequent) from JavaScript 
+11. [] Test : Who are you from anime Naruto :) Look here like example [ProProfs](https://www.proprofs.com/quiz-school/story.php?title=which-naruto-character-are-you-most-like)
+12. [] Check if first letter is `lowerCase` or `UpperCase`.
 1. [] De fiecare data cand porneshti consola sa se maraeasca numarul (n += 1)
 1. [] Algorithm bubble sort.
 1. [] See in in file `scripts/check_letter.js` and align all errors.
@@ -31,10 +32,9 @@
 1. [] Создать массив заданной длины
 1. [] If the symbols `{}, [], ()` are equal true else false
 1. [] In partea stanga ai un bloc cu 7 poze mici cand dai pe fiecare poza, cu cursorul sa se schimbe poza + zoom + download a image.
-1. [x] Sa vezi cîte argumente sunt într-o funcție.  Exemplu:
 1. Удалённое управление компьютером. SSH ?
 1. TRELLO. What is this ?
-1. I don't remember what is bellow ... See later ...
+1. [x] Sa vezi cîte argumente sunt într-o funcție.
 ```javascript
 function count_arguments(arg1, arg2, arg3, arg4, arg5) {
   data = arguments.length;
@@ -45,7 +45,6 @@ function count_arguments(arg1, arg2, arg3, arg4, arg5) {
 
 count_arguments("room", "such", "zoo");
 ```
-
 1. Reverse Smile
 
 ```js
