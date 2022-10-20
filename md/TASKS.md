@@ -6,10 +6,10 @@
 - [Gues the number](GUES_NUMBER.md)
 
 ### Future Tasks:
-1. [] Scrie o programă pentru browser, identic cu `Canguourou` [Link 1](https://sites.google.com/view/onlinecursuri/INFORMATICA/clasa-a-viii-a/semestrul-ii-8/no%C8%9Biune-de-algoritm) și [Link 2](https://www.scribd.com/presentation/427414121/Executantul-Cangourou) Uite-te la poză. ![image](../img/cangur.png)
-1. [] Arată în consolă cîte numere sa găsit comune în 2 arr. ? 
-1. [] Arată în consolă doar elementul care nu se repetă. `var arr = [1,1,8,8,2,2,4,4,3,3,5,9,9];` Mai bine spus numărul 5 din varibila arr.
-1. []. [Как проверить гласные в JavaScript?](https://fooobar.com/questions/367622/how-do-i-check-for-vowels-in-javascript)
+1. Scrie o programă pentru browser, identic cu `Canguourou` [Link 1](https://sites.google.com/view/onlinecursuri/INFORMATICA/clasa-a-viii-a/semestrul-ii-8/no%C8%9Biune-de-algoritm) și [Link 2](https://www.scribd.com/presentation/427414121/Executantul-Cangourou) Uite-te la poză. ![image](../img/cangur.png)
+1. Arată în consolă cîte numere sa găsit comune în 2 arr. ? 
+1. Arată în consolă doar elementul care nu se repetă. `var arr = [1,1,8,8,2,2,4,4,3,3,5,9,9];` Mai bine spus numărul 5 din varibila arr.
+1. [Как проверить гласные в JavaScript?](https://fooobar.com/questions/367622/how-do-i-check-for-vowels-in-javascript)
 1. []. [Code review](https://codereview.stackexchange.com/questions/128121/count-the-number-of-vowels-and-consonants/128127)
 1. []. [Three ways to repeat a string in JavaScript
 ](https://www.freecodecamp.org/news/three-ways-to-repeat-a-string-in-javascript-2a9053b93a2d/)
