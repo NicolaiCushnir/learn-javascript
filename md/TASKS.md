@@ -20,6 +20,8 @@
 10. [], [Lock at Frequent Question on Stack Overflow](https://stackoverflow.com/questions/tagged/javascript?sort=frequent) from JavaScript 
 11. [] Test : Who are you from anime Naruto :) Look here like example [ProProfs](https://www.proprofs.com/quiz-school/story.php?title=which-naruto-character-are-you-most-like)
 12. [] Check if first letter is `lowerCase` or `UpperCase`.
+
+### Check
 1. [] De fiecare data cand porneshti consola sa se maraeasca numarul (n += 1)
 1. [] Algorithm bubble sort.
 1. [] See in in file `scripts/check_letter.js` and align all errors.
