@@ -20,23 +20,21 @@
 10. [], [Lock at Frequent Question on Stack Overflow](https://stackoverflow.com/questions/tagged/javascript?sort=frequent) from JavaScript 
 11. [] Test : Who are you from anime Naruto :) Look here like example [ProProfs](https://www.proprofs.com/quiz-school/story.php?title=which-naruto-character-are-you-most-like)
 12. [] Check if first letter is `lowerCase` or `UpperCase`.
-
-### Check
-1. [] De fiecare data cand porneshti consola sa se maraeasca numarul (n += 1)
-1. [] Algorithm bubble sort.
-1. [] See in in file `scripts/check_letter.js` and align all errors.
-1. [] Check if exsist in array a object.
-1. [] Work with data `Moment.js`
-1. [] Write a program minutes and seconds in js but he(it) will be counting all seconds together with minutes. Learn [here](https://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date)
-1. [] Fibonaci. Take example from the book js.
-1. [] if is undefined write something else
-1. [] Work with table [View CodePen](https://codepen.io/keukenrolletje/pen/GooXrQ)
-1. [] Создать массив заданной длины
-1. [] If the symbols `{}, [], ()` are equal true else false
-1. [] In partea stanga ai un bloc cu 7 poze mici cand dai pe fiecare poza, cu cursorul sa se schimbe poza + zoom + download a image.
-1. Удалённое управление компьютером. SSH ?
-1. TRELLO. What is this ?
-1. [x] Sa vezi cîte argumente sunt într-o funcție.
+13. [] De fiecare data cand porneshti consola sa se maraeasca numarul (n += 1)
+14. [] Algorithm bubble sort.
+15. [] See in in file `scripts/check_letter.js` and align all errors.
+16. [] Check if exsist in array a object.
+17. [] Work with data `Moment.js`
+18. [] Write a program minutes and seconds in js but he(it) will be counting all seconds together with minutes. Learn [here](https://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date)
+19. [] Fibonaci. Take example from the book js.
+20. [] if is undefined write something else
+21. [] Work with table [View CodePen](https://codepen.io/keukenrolletje/pen/GooXrQ)
+21. [] Создать массив заданной длины
+23. [] If the symbols `{}, [], ()` are equal true else false
+24. [] In partea stanga ai un bloc cu 7 poze mici cand dai pe fiecare poza, cu cursorul sa se schimbe poza + zoom + download a image.
+25. [] Удалённое управление компьютером. SSH ?
+26. [] TRELLO. What is this ?
+27. [x] Sa vezi cîte argumente sunt într-o funcție.
 ```javascript
 function count_arguments(arg1, arg2, arg3, arg4, arg5) {
   data = arguments.length;
@@ -47,7 +45,7 @@ function count_arguments(arg1, arg2, arg3, arg4, arg5) {
 
 count_arguments("room", "such", "zoo");
 ```
-1. Reverse Smile
+28. [x] Reverse Smile
 
 ```js
 function reverse_smile() {
@@ -77,16 +75,16 @@ console.log(text.reverse());
 }
 ```
 
-1. [] Treb sa fac un program care am ca argument 3 argumente, x, y, z. Cate combinatii pot sa fac cu ele ? Dar daca in loc de 3 argumente punem o litera care va insemna cat de multe argumente va fii si atentie va calcula iarasi cate combinatii va fii.
-1. [] How many words are in argument. But in a sentence or comma? 
+29. [] Treb sa fac un program care am ca argument 3 argumente, x, y, z. Cate combinatii pot sa fac cu ele ? Dar daca in loc de 3 argumente punem o litera care va insemna cat de multe argumente va fii si atentie va calcula iarasi cate combinatii va fii.
+30. [] How many words are in argument. But in a sentence or comma? 
 Pentru fiecare element din argument
-1. [] Calculează cîte vocale sunt intr-un cuvînt/arg
-1. [] Factorial
-1. [] Create a program which you will can make difference between a real word and symbols which does not exist in real world. Exemple. `ssdfsdfa`. This is not a word but `travel` is a word.
-1. [] Cum din multe masive să faci un masiv intreg ? Exemple : [Link 1](https://overcoder.net/q/2569/%D0%BA%D0%B0%D0%BA-%D0%BE%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B0-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0-%D0%B2-javascript-%D0%B8-%D0%B4%D0%B5%D0%B4%D1%83%D0%BF%D0%BB%D0%B8%D1%86%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B)
-1. [] Ai un array. FIe `var arr = [2,4,2,1,5,7,6,9,8,0];`. Si la fiecare iteratie sati dea un masiv random din aceste numere. Adica din toate aceste 10 elemente * la 10 iteratii. Undeva o sa ai matinca 100 de variante. Ah da mai inainte de toate incera ceva de gen:
+31. [] Calculează cîte vocale sunt intr-un cuvînt/arg
+32. [] Factorial
+33. [] Create a program which you will can make difference between a real word and symbols which does not exist in real world. Exemple. `ssdfsdfa`. This is not a word but `travel` is a word.
+34. [] Cum din multe masive să faci un masiv intreg ? Exemple : [Link 1](https://overcoder.net/q/2569/%D0%BA%D0%B0%D0%BA-%D0%BE%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B0-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0-%D0%B2-javascript-%D0%B8-%D0%B4%D0%B5%D0%B4%D1%83%D0%BF%D0%BB%D0%B8%D1%86%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B)
+35. [] Ai un array. FIe `var arr = [2,4,2,1,5,7,6,9,8,0];`. Si la fiecare iteratie sati dea un masiv random din aceste numere. Adica din toate aceste 10 elemente * la 10 iteratii. Undeva o sa ai matinca 100 de variante. Ah da mai inainte de toate incera ceva de gen:
 
-1. Asta e important. Nu sterge ci rezolva in js.
+36. [] Asta e important. Nu sterge ci rezolva in js.
 
 ```py
 def shuffle(a):
@@ -96,7 +94,7 @@ def shuffle(a):
         a[i], a[j] = a[j], a[i]  # swap a[i] and a[j].
 ```
 
-1. [] To generate a milion names and last names for database Postgres like example. Și de aici să faci diferite manipulări de exemplu sortarea tuturor utilizatorilor care au proprietateea - locuesc in Moldova. Cu alte cuvinte fiecare utilizator sa aiba proprietati, dar asta e deja alta programa adaugatoare. Example:
+37. [] To generate a milion names and last names for database Postgres like example. Și de aici să faci diferite manipulări de exemplu sortarea tuturor utilizatorilor care au proprietateea - locuesc in Moldova. Cu alte cuvinte fiecare utilizator sa aiba proprietati, dar asta e deja alta programa adaugatoare. Example:
 
 ```js
 // și așa să fie la fiecare utilizator
@@ -112,7 +110,8 @@ var user_37234 = {
   rank: "junior" 
 }
 ```
-1. [] Generarea utilziatorilor : să arate ceva de gen așa :
+
+38. [] Generarea utilziatorilor : să arate ceva de gen așa :
 
 ```js
 Dion Dupont
@@ -126,8 +125,9 @@ Carolyn Lozano
 Arif Parsons
 Fynn Butler
 ```
-1. [] Как сделать расширение для браузера? Тика как `Ad Block`, `Alexa Trafic Rank`, `Build width Technology`
-1. [] See what type of data is :
+
+39. [] Как сделать расширение для браузера? Тика как `Ad Block`, `Alexa Trafic Rank`, `Build width Technology`
+40. [] See what type of data is :
 
 ```Algorithm
 check type of data:
@@ -145,7 +145,7 @@ check type of data:
   {<>=-!.,* **() {} }
 ```
 
-1. [] Să fac o programă ceva de gen sa scriu în consolă sau terminal `run program` de exemplu, și o să-mi apară pe rînd fiecare programă pe care am făcut cu ajutorul la js. În plus de fiecare cînd o să pornesc progrma să apară în forma `random` cît și prima atît și următoarele pînă la sfîrșit cu așa scop să nu se repete nici una din ele. Probabil o sa am un array cu mai multe array-uri in el. Treb de gindit ...
+41. [] Să fac o programă ceva de gen sa scriu în consolă sau terminal `run program` de exemplu, și o să-mi apară pe rînd fiecare programă pe care am făcut cu ajutorul la js. În plus de fiecare cînd o să pornesc progrma să apară în forma `random` cît și prima atît și următoarele pînă la sfîrșit cu așa scop să nu se repete nici una din ele. Probabil o sa am un array cu mai multe array-uri in el. Treb de gindit ...
 
 ### Not Important. It's for me.
 * [Emoji](https://gist.github.com/AliMD/3344523)
