@@ -45,35 +45,8 @@ function count_arguments(arg1, arg2, arg3, arg4, arg5) {
 
 count_arguments("room", "such", "zoo");
 ```
-28. [] Reverse Smile **MADE**
 
-```js
-function reverse_smile() {
-	String.prototype.reverse = function() {
-	let textArray = [...this];
-	let reverseString = "";
-
-	for (let i = 0; i < textArray.length; i++) {
-		let char = textArray[i];
-		while (textArray[i + 1] === '\u200d') {
-			char += textArray[i + 1] + textArray[i + 2];
-      		i = i + 2;
-    	}
-    	
-    	reverseString = char + reverseString;
-  }
-  
-  return reverseString;
-}
-
-const text = "Hello world👩‍🦰👩‍👩‍👦‍👦";
-
-console.log(text.reverse());
-
-//Fun fact, you can chain them to dubbel reverse :)
-//console.log(text.reverse().reverse());
-}
-```
+28. [] Să fac o programă ceva de gen sa scriu în consolă sau terminal `run program` de exemplu, și o să-mi apară pe rînd fiecare programă pe care am făcut cu ajutorul la js. În plus de fiecare cînd o să pornesc progrma să apară în forma `random` cît și prima atît și următoarele pînă la sfîrșit cu așa scop să nu se repete nici una din ele. Probabil o sa am un array cu mai multe array-uri in el. Treb de gindit ...
 
 29. [] Treb sa fac un program care am ca argument 3 argumente, x, y, z. Cate combinatii pot sa fac cu ele ? Dar daca in loc de 3 argumente punem o litera care va insemna cat de multe argumente va fii si atentie va calcula iarasi cate combinatii va fii.
 30. [] How many words are in argument. But in a sentence or comma? 
@@ -145,7 +118,7 @@ check type of data:
   {<>=-!.,* **() {} }
 ```
 
-41. [] Să fac o programă ceva de gen sa scriu în consolă sau terminal `run program` de exemplu, și o să-mi apară pe rînd fiecare programă pe care am făcut cu ajutorul la js. În plus de fiecare cînd o să pornesc progrma să apară în forma `random` cît și prima atît și următoarele pînă la sfîrșit cu așa scop să nu se repete nici una din ele. Probabil o sa am un array cu mai multe array-uri in el. Treb de gindit ...
+41. [] Crează un bot.
 
 ### Not Important. It's for me.
 * [Emoji](https://gist.github.com/AliMD/3344523)
