@@ -6,5 +6,9 @@
 * [My tasks which i must do / Thoughts](https://github.com/NicolaiCushnir/learn-javascript/blob/master/md/TASKS.md)
 * [Algorithms and structures of data](md/ALGORITHMS.md)
 
-### Links
+### Extern links:
 * [Measure That](https://www.measurethat.net/)
+
+### What ?
+* [Github Actions Docs](https://docs.github.com/en/actions) 
+* [Github Actions](https://github.com/features/actions)
