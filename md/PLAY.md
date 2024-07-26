@@ -201,12 +201,32 @@ console.log("B");
 
 * Show in console only numbers which are repeted.
 ```js
-console.log("not be sonn ...");
+const arr = [1, 3, 2, 5, 2, 1, 4, 7, 8, 9, 8];
+function repeated_numbers(arr) {
+  
+  // Creăm un obiect pentru a număra aparițiile fiecărui element
+  const count = {};
+  
+  // Iterăm prin array pentru a popula obiectul count
+  for (const num of arr) {
+    count[num] = (count[num] || 0) + 1;
+  }
+  
+  // Filtrăm elementele care apar mai mult de o dată
+  const duplicates = Object.keys(count)
+    .filter(num => count[num] > 1)
+    .map(num => parseInt(num, 10));
+  
+  return duplicates;
+}
+
+// Show in console our the result:
+console.log(repeated_numbers(arr));
 ```
 
 * Show only numbers that are not repeated.
 ```js
-function shortMethod () {
+function numbers_not_repeated () {
   var a = [2, 2,23,453,52,32,3,24,25,2,4,25,5,363,4,23,5,2];
   var b = [... new Set(a)];
   console.log(b);
@@ -226,6 +246,7 @@ function power() {
 * Cheamă funcția `step();` de mai multe ori. Ai să vezi cum la fiecare chemare numărul se va ridica cu 1.
 
 ```js
+// something wrong ...
 let count = 1;
 function step() {
   count++;
@@ -233,7 +254,7 @@ function step() {
 }
 ```
 
-* De făcut în javascript simulare a semaforului, doar în sonsolă. În loc de culori să fie o variabilă `let colors = ["red", "yellow", "green"];` care va simula sevaforul. Apoi fiecare cinci secunde trebuie să schimbe culoarea., adica cuvintul. 
+* De făcut în javascript simulare a semaforului, doar în sonsolă. În loc de culori să fie o variabilă `let colors = ["red", "yellow", "green"];` care va simula semaforul. Apoi fiecare cinci secunde trebuie să schimbe culoarea., adica cuvintul. 
 
 ```js
 // simulate trafic light
