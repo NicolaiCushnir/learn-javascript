@@ -8,7 +8,5 @@
 
 ### Extern links:
 * [Measure That](https://www.measurethat.net/)
-
-### What ?
 * [Github Actions Docs](https://docs.github.com/en/actions) 
 * [Github Actions](https://github.com/features/actions)
