@@ -232,3 +232,29 @@ function step() {
   console.log(count);
 }
 ```
+
+* De făcut în javascript simulare a semaforului, doar în sonsolă. În loc de culori să fie o variabilă `let colors = ["red", "yellow", "green"];` care va simula sevaforul. Apoi fiecare cinci secunde trebuie să schimbe culoarea., adica cuvintul. 
+
+```js
+// simulate trafic light
+function traffic_light () {
+  let colors = ["red", "yellow", "green"];
+  let count_index = 0;
+
+  // Funcție pentru a actualiza culoarea semaforului
+  function update_color() {
+    
+    // Curăță consola
+    console.clear();
+
+    // Afișează culoarea curentă
+    console.log(colors[count_index]);
+
+    // Actualizează indexul culorii curente
+        count_index = (count_index + 1) % colors.length;
+  }
+
+  // Schimbă culoarea la fiecare 5 secunde
+    setInterval(update_color, 5000);
+}
+```

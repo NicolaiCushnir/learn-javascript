@@ -1,10 +1,9 @@
 ### Algorithms and structure data
-
 * Mathematics
 * [String](../md/STRING.md) 
 * [Sort](../md/SORTING.md)
-* Factorial ? *Sub semnu intrebarii*
-* Fibonacci ? *Sub semnu intrebarii*
+* Factorial ?
+* Fibonacci ? 
 * Backtracking
 * Cache
 * Алгоритм графы
@@ -31,6 +30,5 @@
 * Genetics
 * Sequence algorithms [wiki](https://en.wikipedia.org/wiki/Sequence)
 
-### Links :
-
+### Extern links :
 * [Wiki : List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
