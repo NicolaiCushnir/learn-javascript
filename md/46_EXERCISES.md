@@ -219,6 +219,16 @@ function main() {
 }
 ```
 
+11. Generează o funcție `generate_string_characters();` Unde va primi doi parametri. De tip number și string. Unde la primul argument scriem de cîte ori string-ul din al doi-lea parametru se va repeta. De exemplu: generate(5, "x"); Se va da rezultatul: generate(5, "xxxxx");
+
+```js
+function generate_string_characters(count_string, char) {
+  return char.repeat(count_string);
+}
+
+console.log(generate_string_characters(15, "[0], "));
+``` 
+
 ### Similar resources
 * [46 Simple Python Exercises 
 April 03, 2017](http://uselesstruth.blogspot.md/2017/04/46-simple-python-exercises.html)
