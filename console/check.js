@@ -1,6 +1,22 @@
+function factorial(n) {
+    if (n < 0) {
+        console.log("Te rog să introduci un număr întreg pozitiv.");
+        return;
+    }
 
-function generate_string_characters(count_string, char) {
-	return char.repeat(count_string);
+    let result = 1;
+    let steps = [];
+
+    for (let i = n; i > 0; i--) {
+        result *= i;
+        steps.push(i);
+    }
+
+    for (let i = n; i > 0; i--) {
+        let currentSteps = steps.slice(steps.length - i).join(" * ");
+        let currentResult = steps.slice(steps.length - i).reduce((a, b) => a * b, 1);
+        console.log(`${i}! = ${currentSteps} = ${currentResult}`);
+    }
 }
 
-console.log(generate_string_characters(15, "[0], "));
+factorial(10);
