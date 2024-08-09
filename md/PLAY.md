@@ -279,3 +279,48 @@ function traffic_light () {
     setInterval(update_color, 5000);
 }
 ```
+
+* Generate name and last name, together.
+
+```js
+let first_name = [
+  "Ion",
+  "Nicolai",
+  "Vadim",
+  "Ana",
+  "Artiom",
+  "Mihai",
+  "Sofia",
+  "Elena",
+  "Oleg",
+  "Cristina",
+  "Alexandru"
+];
+
+let last_name = [
+  "Barnarciuk",
+  "Scutaru",
+  "Melnik",
+  "Budeanu",
+  "Rotaru",
+  "Bostan",
+  "Cusnir"
+];
+
+// Функция для генерации случайного индекса
+function getRandomIndex(array_length) {
+    return Math.floor(Math.random() * array_length);
+}
+
+// Генерация случайного имени и фамилии
+function generateRandomName() {
+    let randomFirstName = first_name[getRandomIndex(first_name.length)];
+    let randomLastName = last_name[getRandomIndex(last_name.length)];
+    return randomFirstName + " " + randomLastName;
+}
+
+// Пример использования: генерируем 5 случайных имен и фамилий
+for (let i = 1; i <= 10; i++) {
+    console.log(i + " " + generateRandomName());
+}
+```

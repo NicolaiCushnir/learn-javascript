@@ -3,7 +3,7 @@
 
 * [Sort](../md/SORTING.md)
 
-* Factorial ?
+* Factorial
 ```js
 function factorial(n) {
     if (n < 0) {
