@@ -70,7 +70,7 @@ count_arguments("room", "such", "zoo");
 30. [] How many words are in argument. But in a sentence or comma? 
 Pentru fiecare element din argument
 31. [] Calculează cîte vocale sunt intr-un cuvînt/arg
-32. [] Factorial
+32. [x] Factorial
 33. [] Create a program which you will can make difference between a real word and symbols which does not exist in real world. Exemple. `ssdfsdfa`. This is not a word but `travel` is a word.
 34. [] Cum din multe masive să faci un masiv intreg ? Exemple : [Link 1](https://overcoder.net/q/2569/%D0%BA%D0%B0%D0%BA-%D0%BE%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%82%D1%8C-%D0%B4%D0%B2%D0%B0-%D0%BC%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D0%B0-%D0%B2-javascript-%D0%B8-%D0%B4%D0%B5%D0%B4%D1%83%D0%BF%D0%BB%D0%B8%D1%86%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D1%8B)
 35. [] Ai un array. FIe `var arr = [2,4,2,1,5,7,6,9,8,0];`. Si la fiecare iteratie sati dea un masiv random din aceste numere. Adica din toate aceste 10 elemente * la 10 iteratii. Undeva o sa ai matinca 100 de variante. Ah da mai inainte de toate incera ceva de gen:
