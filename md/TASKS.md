@@ -40,7 +40,7 @@ console.log( box() );
 12. [] Check if first letter is `lowerCase` or `UpperCase`.
 13. [] De fiecare data cand porneshti consola sa se maraeasca numarul (n += 1)
 14. [] Algorithm bubble sort.
-~15. [] See in in file `scripts/check_letter.js` and align all errors.~
+15. [] ~See in in file `scripts/check_letter.js` and align all errors.~
 16. [] Check if exsist in array a object.
 17. [] Work with data `Moment.js`
 18. [] Write a program minutes and seconds in js but he(it) will be counting all seconds together with minutes. Learn [here](https://stackoverflow.com/questions/3552461/how-to-format-a-javascript-date)
