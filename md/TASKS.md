@@ -14,7 +14,6 @@ var arr_1 = ["zece", "unu", "trei", "noua", "trei"];
 var arr_2 = ["doi", "unu", "noua", "zece"];
 function box () {
   var count = 0;
-  var res = "";
   for(var i = 0; i < arr_1.length; i++ ) {
     for(var j = 0; j < arr_2.length; j++) {
       if(arr_1[i] === arr_2[j]) {
