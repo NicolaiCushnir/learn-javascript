@@ -28,7 +28,7 @@ function box () {
 console.log( box() );
 ```
 3. [x] Arată în consolă doar elementul care nu se repetă. `var arr = [1,1,8,8,2,2,4,4,3,3,5,9,9];` Mai bine spus numărul 5 din varibila arr.
-4. [x] [Как проверить гласные в JavaScript?](https://fooobar.com/questions/367622/how-do-i-check-for-vowels-in-javascript)
+4. [x] [Как проверить гласные в JavaScript?](https://stackoverflow.com/questions/55967359/check-if-is-vowel-or-consonant/55967429#55967429)
 5. []. [Code review](https://codereview.stackexchange.com/questions/128121/count-the-number-of-vowels-and-consonants/128127)
 6. []. [Three ways to repeat a string in JavaScript
 ](https://www.freecodecamp.org/news/three-ways-to-repeat-a-string-in-javascript-2a9053b93a2d/)
