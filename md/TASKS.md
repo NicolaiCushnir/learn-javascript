@@ -7,7 +7,27 @@
 
 ### Future Tasks:
 1. [] Scrie o programă pentru browser, identic cu `Canguourou` [Link 1](https://sites.google.com/view/onlinecursuri/INFORMATICA/clasa-a-viii-a/semestrul-ii-8/no%C8%9Biune-de-algoritm) și [Link 2](https://www.scribd.com/presentation/427414121/Executantul-Cangourou) Uite-te la poză. ![image](../img/cangur.png)
-2. [] Arată în consolă cîte numere sa găsit comune în 2 arr. ? 
+2. [x] Arată în consolă cîte numere sa găsit comune în 2 arr. ?
+```js
+// Arată în consolă cîte numere sa găsit comune cele două masive.
+var arr_1 = ["zece", "unu", "trei", "noua", "trei"];
+var arr_2 = ["doi", "unu", "noua", "zece"];
+function box () {
+  var count = 0;
+  var res = "";
+  for(var i = 0; i < arr_1.length; i++ ) {
+    for(var j = 0; j < arr_2.length; j++) {
+      if(arr_1[i] === arr_2[j]) {
+        count += 1;
+      }
+    }
+  }
+
+  return count;
+}
+
+console.log( box() );
+```
 3. [x] Arată în consolă doar elementul care nu se repetă. `var arr = [1,1,8,8,2,2,4,4,3,3,5,9,9];` Mai bine spus numărul 5 din varibila arr.
 4. []. [Как проверить гласные в JavaScript?](https://fooobar.com/questions/367622/how-do-i-check-for-vowels-in-javascript)
 5. []. [Code review](https://codereview.stackexchange.com/questions/128121/count-the-number-of-vowels-and-consonants/128127)
