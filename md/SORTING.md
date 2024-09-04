@@ -1,11 +1,12 @@
 
-* Arată în consolă fiecare nume în ordine cronologică. Dar invers ?
+* Arată în consolă fiecare nume în ordine cronologică alfabetică. Dar invers ?
 ```js
-var sort_user = function() {
-  var users = ["Zico", "Stefan", "Ron", "Vandersar", "Alan"];
-  var put = users.sort();
-  for (var i = 0; i < users.length; i++) {
-    console.log(users[i]);
+function sort_names_after_alphabet() {
+  let arr = ["Emty", "Nicolai", "Artiom", "Alexandru", "Ion", "Andrei"];
+  arr.sort();
+
+  for(var i = 1; i < arr.length; i++) {
+    console.log(i + " " + arr[i]);
   }
 }
 ```
