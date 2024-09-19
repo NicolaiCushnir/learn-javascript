@@ -10,7 +10,7 @@
 
 ### Others Games:
 * **Notite :** Daca e 2D poti face ceva asemanator cu NTSD
-* **Note 2 :** Sau să faci un joc asemănător cu zobi land cînd te jucai in copilărie la oleg vozneak.
+* **Note 2 :** Sau să faci un joc asemănător cu zombi land cînd te jucai in copilărie la oleg vozneak. Cu tot cu bază + diferite orujîii, bombe, bazukă, aftomat, pistol ...
 
 ### Extern links :
 * link 1
