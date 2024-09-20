@@ -139,7 +139,10 @@ check type of data:
 41. [] Crează un bot.
 42. [] Cum sā i-ei de pe alte resurse API informații de care ai nevoie. Spre exemplu: Noutățile care se publică sā fie la mine în database ???
 43. Și altele 
-44. Cum să fac emiterea mausului în JavaScript și Node.js ? (Why ?)
+44. Cum să fac emiterea mausului în JavaScript și Node.js ? (Why ?):
+    * În primul rînd pentru a testa aplicațiile tale web și automatiza.
+    * Pentru ca să nu deschid manual de fiecare dată cînd pornesc calculatorul, următoarele programe: {Git Bash, Google Chrome, nodemon name_your_projects, Compass, etc. }
+46. And others tasks ...
 
 ### Not Important. It's for me.
 * [Emoji](https://gist.github.com/AliMD/3344523)
