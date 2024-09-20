@@ -142,6 +142,7 @@ check type of data:
 44. Cum să fac emiterea mausului în JavaScript și Node.js ? (Why ?):
     * În primul rînd pentru a testa aplicațiile tale web și automatiza.
     * Pentru ca să nu deschid manual de fiecare dată cînd pornesc calculatorul, următoarele programe: {Git Bash, Google Chrome, nodemon name_your_projects, Compass, etc. }
+    * Игровые боты. Не важно - это твоя игра или нет. Смысл в том чтобы имитировать действие человека. Будь то Strong Hold Crusader. Ну или Lineage 2. 🙂
 46. And others tasks ...
 
 ### Not Important. It's for me.
