@@ -29,7 +29,7 @@ function factorial(n) {
 factorial(10);
 ```
 
-* Fibonacci ? 
+* [Fibonacci](../md/FIBONACI.md) 
 * Backtracking
 * Cache
 * Алгоритм графы
