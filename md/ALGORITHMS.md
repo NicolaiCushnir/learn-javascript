@@ -1,11 +1,11 @@
 ### [return main page](../README.md) || Algorithms and Structure Data
-* [Babblesort](../BABBLESORT.md)
-* [String](../STRING.md) 
-* [Sort](../SORTING.md)
-* [Factorial](../FACTORIAL.md)
-* [Fibonacci](../FIBONACI.md) 
-* [Backtracking](../BACKTRACK.md)
-* [Cache](../CACHE.md)
+* [Babblesort](../md/BABBLESORT.md)
+* [String](../md/STRING.md) 
+* [Sort](../md/SORTING.md)
+* [Factorial](../md/FACTORIAL.md)
+* [Fibonacci](../md/FIBONACI.md) 
+* [Backtracking](../md/BACKTRACK.md)
+* [Cache](../md/CACHE.md)
 * Алгоритм графы
 * Битовые манипуляции
 * Алгоритмы и их сложности
