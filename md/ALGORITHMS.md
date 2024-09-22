@@ -1,37 +1,11 @@
-### Algorithms and structure data
-* [String](../md/STRING.md) 
-
-* [Sort](../md/SORTING.md)
-
-* Factorial
-```js
-function factorial(n) {
-    if (n < 0) {
-        console.log("Te rog să introduci un număr întreg pozitiv.");
-        return;
-    }
-
-    let result = 1;
-    let steps = [];
-
-    for (let i = n; i > 0; i--) {
-        result *= i;
-        steps.push(i);
-    }
-
-    for (let i = n; i > 0; i--) {
-        let currentSteps = steps.slice(steps.length - i).join(" * ");
-        let currentResult = steps.slice(steps.length - i).reduce((a, b) => a * b, 1);
-        console.log(`${i}! = ${currentSteps} = ${currentResult}`);
-    }
-}
-
-factorial(10);
-```
-
-* [Fibonacci](../md/FIBONACI.md) 
-* Backtracking
-* Cache
+### [return main page](../README.md) || Algorithms and Structure Data
+* [Babblesort](../BABBLESORT.md)
+* [String](../STRING.md) 
+* [Sort](../SORTING.md)
+* [Factorial](../FACTORIAL.md)
+* [Fibonacci](../FIBONACI.md) 
+* [Backtracking](../BACKTRACK.md)
+* [Cache](../CACHE.md)
 * Алгоритм графы
 * Битовые манипуляции
 * Алгоритмы и их сложности
@@ -54,7 +28,7 @@ factorial(10);
 * Greedy-algorithm
 * Cryptography
 * Genetics
-* Sequence algorithms [wiki](https://en.wikipedia.org/wiki/Sequence)
 
 ### Extern links :
 * [Wiki : List of algorithms](https://en.wikipedia.org/wiki/List_of_algorithms)
+* Sequence algorithms [wiki](https://en.wikipedia.org/wiki/Sequence)
