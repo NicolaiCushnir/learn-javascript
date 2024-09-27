@@ -4,7 +4,7 @@
 * [Tasks](SVG_TASKS.md)
 * [Tags](TAGS.md)
 * [Simple Forms](SVG_FORMS.md)
-* [Minuses](MINUSES.md) Недостатком использования SVG является его медленная загрузка 
+* [Pros and Cons](PROS_AND_CONS.md) Недостатком использования SVG является его медленная загрузка && Преимущества SVG является работа с DOM.
 
 ### Advanced :
 * Написание SVG с JavaScript
