@@ -2,6 +2,7 @@
 * [Intro](SVG_INTRO.md)
 * [Questions](SVG_QUESTIONS.md)
 * [Tasks](SVG_TASKS.md)
+* [Tags](TAGS.md)
 * [Simple Forms](SVG_FORMS.md)
 
 ### Advanced :
