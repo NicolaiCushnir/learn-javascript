@@ -4,7 +4,7 @@
 * [Rezolved 46 Exercises, from Python](md/46_EXERCISES.md) 
 * [Play with javascript, resolved tasks](md/PLAY.md)
 * [Algorithms and structures of data](md/ALGORITHMS.md)
-* [Solving exercises with explanations at errors why so ?!](md/discussion.md)
+* [Explanations at errors why so ?!](md/discussion.md)
 * [Try to Learn SVG. Icons](md/LEARN_SVG.md)
 * [Work with Date and Time](md/DATE_AND_TIME.md)
 * [Test Brain](md/TEST_BRAIN.md)
