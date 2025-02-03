@@ -44,7 +44,7 @@ let arr = [
 		"tatto": "yes"
 	},
 	{
-		"name": "Nicolai Cushnir",
+		"name": "Cushnir Nicolai",
 		"nickname": "Schedule83",
 		"country": "United Kingdom",
 		"gender": "male",
@@ -86,11 +86,11 @@ function main(arg) {
 console.log( main() );
 ```
 
-* **Ключевые моменты :**
+* **Ключевые моменты, why so?! Look:**
 1. **Первый момент** - Проверяем `arr[i].name`, а не `arg === i` **или** `if(i <= arr.length`) из цикла for loop, то это не верно. Должно быть `i < arr.length`, иначе выйдешь за границы массива.
 2. **Второй момент** -`arg === i` сравнивает строку (`arg`) с числом (`i`), что не имеет смысла.
 3. **Третии момент** - `скобки` и `else`. Убрать `return` из `else`, чтобы оно не прерывало цикл. Ну то есть `else` имеет скрытый return. Он сравнивает с первым елемнтом и если не найден то возращяет результат, вместо того чтобы пройтись по всем обьектам из масива. По этому мы и убрали `else`. То есть другими словами, чтобы оно не прерывало цикл.
-4. Третий момент - переменая `found` и `break`
+4. **Четфёртый момент** - переменая `found` и `break`. После чего нашли останавливаем цикл.
 
 * А вот собствено и правельный пример. ✅
 ```js
@@ -169,10 +169,11 @@ function main(arg) {
 	}
 
 	console.log("Nui asa nume in baza de date.");
+	console.log(arg);
 }
 ```
 
-* А вот пример мне нравиться большее. Из этих трёх, я имею в виду конечно. ✅
+* А вот пример который мне нравиться большее. ✅
 ```js
 let arr = [
 	{
@@ -212,7 +213,7 @@ let arr = [
 		"tatto": "yes"
 	},
 	{
-		"name": "Nicolai Cushnir",
+		"name": "Cushnir Nicolai",
 		"nickname": "Schedule83",
 		"country": "United Kingdom",
 		"gender": "male",
@@ -244,28 +245,72 @@ function main(arg) {
 	let found = false;
 	for(var i = 0; i < arr.length; i++) {
 		if(arr[i].name === arg) {
+			console.log("Yes! Exist so name in database: ");
 			console.log(arg);
-			console.log("Da! este asa nume in bazda de date.");
 			found = true;
 			break;
 		}
 	}
 
 	if(!found) {
-		console.log("Nui asa nume in baza de date.");
+		console.log("No! Don't exist so name in database");
+		console.log(arg);
 	}
 }
 
 // Show The Result :
-main("Rusu Veseslav");
+main("Cushnir Nicolai");
 ```
 
-### Пример 2. ???
-Soon will be
+### Пример 2. forEach
+* Создали `forEach` через анонимную функцию :
 ```js
-console.log("soon will be ...");
+let arr = [1,3,5,4,6,7,9,8];
+arr.forEach(function(number){
+	console.log(number);
+});
 ```
 
+* Аналогичный пример с использованием стрелочной функции:
+```js
+const printNumber = number => console.log(number);
+numbers.forEach(printNumber);
+```
+
+* forEach с преобразаввание из строки в число.
+
+```js
+let arr = [1,3,5,4,6,7,9,8];
+let store = [];
+
+arr.forEach(function(number){
+	store.push(number);
+});
+
+// Проверяем тип и преобразуем в число
+if(typeof store === 'object') {
+
+	// Преобразуем элементы в числа
+	store = store.map(Number);
+}
+
+ // Выведет массив чисел
+console.log( typeof(store) );
+```
+
+* С использование `prototype`:
+```js
+Array.prototype.myForEach = function(callback) {
+    for (let i = 0; i < this.length; i++) {
+        callback(this[i], i, this);
+    }
+};
+
+// Пример использования:
+[1, 2, 3].myForEach((item, index) => {
+    console.log(`Элемент: ${item}, Индекс: ${index}`);
+});
+```
 ### Extern links :
 * link 1
 * link 2
