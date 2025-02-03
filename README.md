@@ -1,11 +1,12 @@
 ![JavaScript](img/original.png)
 
 ### Learn JavaScript.
+* [Learn DOM Gitlab](https://gitlab.com/Schedule93/tutorial-online/-/blob/master/md/lessons/js/DOM.md)
 * [Test Brain](md/TEST_BRAIN.md)
 * [Rezolved 46 Exercises, from Python](md/46_EXERCISES.md) 
 * [Play with javascript, resolved tasks](md/PLAY.md)
 * [Algorithms and structures of data](md/ALGORITHMS.md)
-* [Explanations at errors why so ?!](md/discussion.md)
+* [Explanations at errors why so ?!](md/DISCUSSION.md)
 * [Try to Learn SVG. Icons](md/LEARN_SVG.md)
 * [Work with Date and Time](md/DATE_AND_TIME.md)
 * [My tasks which i must do / Thoughts](https://github.com/NicolaiCushnir/learn-javascript/blob/master/md/TASKS.md)
