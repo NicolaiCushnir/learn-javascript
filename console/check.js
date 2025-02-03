@@ -1,4 +1,5 @@
+const numbers = [1, 2, 3, 4, 5];
 
-function find_porn_actress(arg) {
-
-}
+numbers.forEach(function(number) {
+  console.log(number);
+});
