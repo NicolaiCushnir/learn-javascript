@@ -72,8 +72,6 @@ let arr = [
 	},
 ];
 
-let found = false;
-
 function main(arg) {
 	for(var i = 0; i < arr.length; i++) {
 		if(arr[i] === arg) {
@@ -88,18 +86,92 @@ function main(arg) {
 console.log( main() );
 ```
 
-* **Explication at errors from above** :
-- err 1.
-- err 2.
-- err 3.
-- err n.
-
-* **Conclusions**:
-1. Первый момент - `arr[i].name` && `i`
-2. Второй момент - `скобки` и `else`
+* **Ключевые моменты **:
+1. Первый момент - Проверяем `arr[i].name`, а не `arg === i`
+2. Второй момент - `скобки` и `else`. Убрать `return` из `else`, чтобы оно не прерывало цикл. Ну то есть `else` имеет скрытый return. Он сравнивает с первым елемнтом и если не найден то возращяет результат, вместо того чтобы пройтись по всем обьектам из масива. По этому мы и убрали `else`. То есть другими словами, чтобы оно не прерывало цикл.
 3. Третий момент - переменая `found` и `break`
 
-* А вот собствено правельный пример. ✅
+* А вот собствено и правельный пример. ✅
+```js
+let arr = [
+	{
+		"name": "Calincov Alexandru",
+		"nickname": "Uciha Sasuke",
+		"country": "Ukraina",
+		"gender": "male",
+		"age": 20,
+		"hair": "dark",
+		"tatto": "yes"
+	},
+	{
+		"name": "Spătaru Ioana",
+		"nickname": "don't_me_angry",
+		"country": "Romania",
+		"gender": "female",
+		"age": 24,
+		"hair": "dark",
+		"tatto": "yes"
+	},
+	{
+		"name": "Botnaru Artur",
+		"nickname": "robin_good",
+		"country": "Israel",
+		"gender": "male",
+		"age": 31,
+		"hair": "dark",
+		"tatto": "no"
+	},
+	{
+		"name": "Bendeac Ana",
+		"nickname": "Annasoya",
+		"country": "Italy",
+		"gender": "female",
+		"age": 35,
+		"hair": "dark",
+		"tatto": "yes"
+	},
+	{
+		"name": "Nicolai Cushnir",
+		"nickname": "Schedule83",
+		"country": "United Kingdom",
+		"gender": "male",
+		"age": 22,
+		"hair": "dark",
+		"tatto": "no"
+	},
+	{
+		"name": "Melenic Alexandru",
+		"nickname": "Barcelona22",
+		"country": "Moldova",
+		"gender": "male",
+		"age": 22,
+		"hair": "blonde",
+		"tatto": "no"
+	},
+	{
+		"name": "Alina Scutaru",
+		"nickname": "Bianca",
+		"country": "France",
+		"gender": "female",
+		"age": 19,
+		"hair": "blonde",
+		"tatto": "yes"
+	},
+];
+
+function main(arg) {
+	for(var i = 0; i < arr.length; i++) {
+		if(arr[i].name === arg) {
+			console.log(arg);
+			console.log("Da! este asa nume in bazda de date.");
+		}
+	}
+
+	console.log("Nui asa nume in baza de date.");
+}
+```
+
+* А вот самый лушый пример на мой взгляд. Из этих трёх, конечно. ✅
 ```js
 let arr = [
 	{
