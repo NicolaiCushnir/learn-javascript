@@ -1,3 +1,5 @@
+
+// Browser Effect printing text :
 const text = "Это пример текста, который будет печататься по одной букве.";
 const outputElement = document.getElementById("output"); // Предположим, у вас есть элемент с id="output"
 let index = 0;

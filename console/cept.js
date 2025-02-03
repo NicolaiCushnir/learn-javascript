@@ -1,3 +1,4 @@
+// Console Effect Printing Text :
 const text = "Это пример текста, который будет печататься по одной букве.";
 let index = 0;
 
