@@ -1,5 +1,7 @@
 ![JavaScript](img/original.png)
 
+**Note** Why Github not put my commit ???
+
 ### Learn JavaScript.
 * [Learn DOM Gitlab](https://gitlab.com/Schedule93/tutorial-online/-/blob/master/md/lessons/js/DOM.md)
 * [Test Brain](md/TEST_BRAIN.md)
