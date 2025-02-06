@@ -1,7 +1,6 @@
-### Here I play with JavaScript.
+### [return main page](../README.md) || Here I play with JavaScript :
 
 * Each second will show in console, slow value at `i` like a infinity iteration.
-
 ```js
 // Example 1 : Each second will show in console, slow value ...
 var count = 1;

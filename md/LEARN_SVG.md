@@ -1,4 +1,4 @@
-### [return main page](#) || Topic. Learn SVG :
+### [return main page](../README.md) || Topic. Learn SVG :
 * [Intro](SVG_INTRO.md)
 * [Questions](SVG_QUESTIONS.md)
 * [Tasks](SVG_TASKS.md)

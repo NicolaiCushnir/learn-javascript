@@ -1,4 +1,4 @@
-### [return main page](../READmE.md) || Topic. Brain Test :
+### [return main page](../README.md) || Topic. Brain Test :
 
 * Question 1 :
 

@@ -1,4 +1,4 @@
-### [return main page] || SVG Tasks :
+### [return main page](../README.md) || Topic. SVG Tasks :
 * Fă o joacă asemănătoare cu NTSD în SVG.
 * Să fac un joc asemănător cu `zombi-land` cînd te jucai in copilărie la oleg vozneak. Cu tot cu: 
 	* Bază: {Crearea bazei - Diferite ukreplenii, }

@@ -1,4 +1,4 @@
-
+### [return main page](../README.md) || Topic. Play with javascript :
 * Arată în consolă fiecare nume în ordine cronologică alfabetică. Dar invers ?
 ```js
 function sort_names_after_alphabet() {

@@ -1,4 +1,4 @@
-### [return main page](../README.md) && Topic. Resolved 46 exercises in JavaScript from Python.
+### [return main page](../README.md) || Topic. Resolved 46 exercises in JavaScript from Python.
 1. Write a function `maxTwoNumbers();` two numers.
 ```js
 function maxTwoNumbers(a1, a2) {

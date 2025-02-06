@@ -1,4 +1,4 @@
-### String Algorithms :
+### [return main page](../README.md) || Topic. String Algorithms :
 
 * Show only common name in the console.
 ```javascript

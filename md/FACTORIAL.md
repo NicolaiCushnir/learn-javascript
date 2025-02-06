@@ -1,5 +1,4 @@
-
-### [return main page](../README.md) || Topic Factorial 
+### [return main page](../README.md) || Topic Factorial :
 
 ```js
 function factorial(n) {

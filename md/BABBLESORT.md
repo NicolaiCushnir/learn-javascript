@@ -1,5 +1,5 @@
 
-### [return main page](../README.md) || Topic Babblesort :
+### [return main page](../README.md) || Topic. Babblesort :
 
 ```js
 // Example 1:
