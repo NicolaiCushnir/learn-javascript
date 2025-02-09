@@ -1,6 +1,6 @@
 
 /**
-*** Să fac o programă la dispozitia mea, dar si la altii
+*** Să fac o programă, ce dispozitie ai, dar si la altii
 { day, month, year } - [2025, 2026, 2027]
 Pur si simplu pentru interes. Eu singur inca nu stiu, ce shi cum :v
 **/
@@ -22,8 +22,16 @@ let events = [];
 // un for loop pentru :
 let factors = [];
 
+let month = [];
+
+let year = [];
+
 function main (person, factors, eveniment) {
 	return person;
+}
+
+function random() {
+	return "here will be random funcs events(); and factors; ";
 }
 
 console.log( main("Giro :V ") );
