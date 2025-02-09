@@ -12,6 +12,7 @@
 * [Work with Date and Time](md/DATE_AND_TIME.md)
 * [My tasks which i must do / Thoughts](https://github.com/NicolaiCushnir/learn-javascript/blob/master/md/TASKS.md)
 * [150 Exercises in JavaScript](#)
+* [JavaScript Benchmarks](#)
 
 ### Extern links:
 * [Measure That](https://www.measurethat.net/)
