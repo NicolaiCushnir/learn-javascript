@@ -22,3 +22,6 @@
 * [Measure That](https://www.measurethat.net/)
 * [Github Actions Docs](https://docs.github.com/en/actions) 
 * [Github Actions](https://github.com/features/actions)
+
+### Check - IF Git Commit work with must :
+this is simple text for some minutes ...
