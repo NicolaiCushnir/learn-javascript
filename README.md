@@ -12,7 +12,11 @@
 * [Work with Date and Time](md/DATE_AND_TIME.md)
 * [My tasks which i must do / Thoughts](https://github.com/NicolaiCushnir/learn-javascript/blob/master/md/TASKS.md)
 * [150 Exercises in JavaScript](#)
-* [JavaScript Benchmarks](#)
+* [JavaScript Benchmarks](md/BENCHMARKS.md)
+* [Tricks in javascript which you can do](md/TRICKS.md)
+
+### Questions from JavaScript :
+* `recursia` și `factorial`, este același lucru sau sunt chestii diferirte ?
 
 ### Extern links:
 * [Measure That](https://www.measurethat.net/)
