@@ -323,3 +323,18 @@ for (let i = 1; i <= 10; i++) {
     console.log(i + " " + generateRandomName());
 }
 ```
+
+* sum at all arr
+```js
+let arr = [2, 3, 0, -2, 1];
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > 0) { // Проверяем, что число положительное
+        sum += arr[i]; // Добавляем к сумме
+    }
+}
+
+// show result
+console.log(sum); // Выводим результат
+```
