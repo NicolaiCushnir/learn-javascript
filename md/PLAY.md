@@ -324,7 +324,7 @@ for (let i = 1; i <= 10; i++) {
 }
 ```
 
-* calculează suma totală care este în array. Fără zero și numere negative
+* calculează suma totală care este în array. Dacă e  zero sau numere negative, atunci nu calcula. Doar numerele pozitive calculează.
 ```js
 let arr = [2, 3, 0, -2, 1];
 let sum = 0;
