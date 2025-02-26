@@ -279,7 +279,7 @@ function traffic_light () {
 }
 ```
 
-* Generate name and last name, together.
+* Generate random name and last name, together.
 
 ```js
 let first_name = [
@@ -324,17 +324,17 @@ for (let i = 1; i <= 10; i++) {
 }
 ```
 
-* sum at all arr
+* calculează suma totală care este în array. Fără zero și numere negative
 ```js
 let arr = [2, 3, 0, -2, 1];
 let sum = 0;
 
 for (let i = 0; i < arr.length; i++) {
-    if (arr[i] > 0) { // Проверяем, что число положительное
-        sum += arr[i]; // Добавляем к сумме
+    if (arr[i] > 0) {
+        sum += arr[i];
     }
 }
 
 // show result
-console.log(sum); // Выводим результат
+console.log(sum);
 ```
