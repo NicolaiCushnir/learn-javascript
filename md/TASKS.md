@@ -143,7 +143,7 @@ check type of data:
     * În primul rînd pentru a testa aplicațiile tale web și automatiza.
     * Pentru ca să nu deschid manual de fiecare dată cînd pornesc calculatorul, următoarele programe: {Git Bash, Google Chrome, nodemon name_your_projects, Compass, etc. }
     * Игровые боты. Не важно - это твоя игра или нет. Смысл в том чтобы имитировать действие человека. Будь то Strong Hold Crusader. Ну или Lineage 2. А вот какие библиотеки нужны это: `robot.js` || `Puppeteer.js`
-45. Să fac o programă analogică cu imaginea de mai jos : ![img](..img/commits_vs_years.png)
+45. Să fac o programă analogică cu imaginea de mai jos : ![img](../img/commits_vs_years.png)
 
 ### Not Important. It's for me.
 * [Emoji](https://gist.github.com/AliMD/3344523)
