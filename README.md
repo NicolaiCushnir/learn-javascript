@@ -16,7 +16,7 @@
 * [Tricks in javascript which you can do](md/TRICKS.md)
 
 ### Questions from JavaScript :
-* `recursia` și `factorial`, este același lucru sau sunt chestii diferirte ?
+* `recursia`, `fibonaci` și `factorial`, este același chestii sau sunt chestii diferirte ?
 
 ### Extern links:
 * [Measure That](https://www.measurethat.net/)
