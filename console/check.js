@@ -1,20 +1,12 @@
-
-// vowel or consonant :
-var vowel = "aeouiAEOUI";
-var result = "";
-var is_constant = true;
-function vowel_or_consonant(arg) {
-	for(var i = 0; i < vowel.length; i++) {
-		if(arg === vowel[i]) {
-			is_constant = false;
+function polindrom(str) {
+	var clear_str = str.replace(/[^A-Za-z0-9]/g, '').toLowerCase();
+	var length = clear_str.length;
+	for (let i = 0; i < Math.floor(length / 2); i++) {
+	if (clear_str[i] !== clear_str[length - 1 - i]) {
+			return false;
 		}
 	}
-
-	if(is_constant) {
-		console.log("constant");
-	} else {
-		console.log("Vowel");
-	}
+	return true;
 }
 
-vowel_or_consonant("u");
+console.log( polindrom("unu") );
