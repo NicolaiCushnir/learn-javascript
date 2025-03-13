@@ -338,3 +338,50 @@ for (let i = 0; i < arr.length; i++) {
 // show result
 console.log(sum);
 ```
+
+* Vowel or Consonant :
+```js
+// Exemple 1 :
+var vowel = "aeouiAEOUI";
+var result = "";
+var is_constant = true;
+function vowel_or_consonant(arg) {
+  for(var i = 0; i < vowel.length; i++) {
+    if(arg === vowel[i]) {
+      is_constant = false;
+    }
+  }
+
+  if(is_constant) {
+    console.log("constant");
+  } else {
+    console.log("Vowel");
+  }
+}
+
+// Exemple 2. Resolved with method indexOf :
+function letter_method_indexof(arg) {
+  var vowels = ["a","e","i","o","u"];
+  // why >= 0 ? maybe from the indexOf method 
+  if(vowels.indexOf(arg.toLowerCase()) >= 0) {
+    console.log("vowel");
+  } else {
+    console.log("consonant");
+  } 
+}
+
+// Exemple 3. Resolved with method include :
+function letter_method_include (arg) {
+  var vowel = "aeiou";
+  var consonant = "bcdfghjklmnprqstvwxyz";
+  if(vowel.includes(arg)) {
+    console.log(arg + " is a vowel. ");
+  } else if (consonant.includes(arg)) {
+    console.log(arg + " is a consonant. ");
+  } else if(!vowel.includes(arg) && !consonant.include(arg)) {
+    console.log("It's not letter.");
+  } else {
+    console.log("Something wrong!");
+  }
+}
+```
