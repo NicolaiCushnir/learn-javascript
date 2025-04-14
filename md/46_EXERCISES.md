@@ -220,7 +220,6 @@ function main() {
 ```
 
 11. Generează o funcție `generate_string_characters();` Unde va primi doi parametri. De tip number și string. Unde la primul argument scriem de cîte ori string-ul din al doi-lea parametru se va repeta. De exemplu: generate(5, "x"); Se va da rezultatul: generate(5, "xxxxx");
-
 ```js
 function generate_string_characters(count_string, char) {
   return char.repeat(count_string);
@@ -228,6 +227,17 @@ function generate_string_characters(count_string, char) {
 
 console.log(generate_string_characters(15, "[0], "));
 ``` 
+
+12. Create a program where you will write an array from numbers. After what you made this, make all these to be from stars, like this `*`. Exemple: `[ '****', '*********', '*******' ];`
+```js
+// Exemple 1:
+console.log("will be ...");
+
+// Exemple 2 :
+let arr = [4, 9, 7];
+let result = arr.map(num => '*'.repeat(num));
+console.log(result);
+```
 
 ### Similar resources
 * [46 Simple Python Exercises 
