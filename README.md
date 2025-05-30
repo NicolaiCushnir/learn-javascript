@@ -14,6 +14,7 @@
 * [150 Exercises in JavaScript](#)
 * [JavaScript Benchmarks](md/BENCHMARKS.md)
 * [Tricks in javascript which you can do](md/TRICKS.md)
+* [Future's at JavaScript with examples](#)
 
 ### Questions from JavaScript :
 * `recursia`, `fibonaci` și `factorial`, este același chestii sau sunt chestii diferirte ?
